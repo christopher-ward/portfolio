@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Site Project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm-run-all --silent --parallel dev:*",
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --watch --devtool=sourcemap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@babel/plugin-transform-react-jsx": "^7.8.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}

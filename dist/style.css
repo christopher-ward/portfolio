@@ -1,0 +1,35 @@
+.row {
+  margin: 0;
+}
+.header {
+  position: fixed;
+  top: 0;
+  height: 20vh;
+  background-color: aliceblue;
+  padding: 0;
+  justify-content: center;
+  z-index: 1;
+}
+.header h1, .header .nav-item {
+  cursor: pointer;
+}
+.header h1 {
+  font-size: 1.75rem;
+}
+.about {
+  margin-top: 20vh;
+  height: 80vh;
+  background-color: aqua;
+}
+.skills {
+  height: 80vh;
+  background-color: blanchedalmond;
+}
+.applications {
+  height: 80vh;
+  background-color: burlywood;
+}
+.contact {
+  height: 80vh;
+  background-color: cornflowerblue;
+}
