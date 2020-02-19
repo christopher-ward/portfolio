@@ -6,10 +6,10 @@ export default class App extends React.Component {
     return (
       <>
         <Header />
-        <div className="container-fluid section-2"></div>
-        <div className="container-fluid section-3"></div>
-        <div className="container-fluid section-4"></div>
-        <div className="container-fluid section-5"></div>
+        <div className="container-fluid about"></div>
+        <div className="container-fluid skills"></div>
+        <div className="container-fluid applications"></div>
+        <div className="container-fluid contact"></div>
       </>
     );
   }

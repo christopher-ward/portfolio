@@ -8668,13 +8668,13 @@ __webpack_require__.r(__webpack_exports__);
 class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "container-fluid section-2"
+      className: "container-fluid about"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "container-fluid section-3"
+      className: "container-fluid skills"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "container-fluid section-4"
+      className: "container-fluid applications"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "container-fluid section-5"
+      className: "container-fluid contact"
     }));
   }
 
@@ -8715,8 +8715,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   scrollProgress() {
     const scrollPx = document.documentElement.scrollTop;
     const winHeightPx = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrolled = `${scrollPx / winHeightPx * 100}%`; // console.log(scrolled);
-
+    const scrolled = `${scrollPx / winHeightPx * 100}%`;
     this.setState({
       scrolled: scrolled
     });
@@ -8738,7 +8737,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       height: this.state.scrolled
     };
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "container-fluid navbar navbar-light header"
+      className: "container-fluid fixed-top navbar navbar-light header"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "row logo align-items-center"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "wardOfCode"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

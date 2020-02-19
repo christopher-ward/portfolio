@@ -24,7 +24,6 @@ export default class Header extends React.Component {
       document.documentElement.clientHeight;
     const scrolled = `${scrollPx / winHeightPx * 100}%`;
 
-    // console.log(scrolled);
     this.setState({
       scrolled: scrolled
     });
@@ -48,7 +47,7 @@ export default class Header extends React.Component {
     };
 
     return (
-      <div className="container-fluid navbar navbar-light header">
+      <div className="container-fluid fixed-top navbar navbar-light header">
         <div className="row logo align-items-center">
           <h1>wardOfCode</h1>
           <div className="col">
