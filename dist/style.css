@@ -16,6 +16,21 @@
 .header h1 {
   font-size: 1.75rem;
 }
+/* progress-container {
+  background: #f8bbd0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  width: 8px;
+  height: 95px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+progress-bar {
+  width: 8px;
+  border-radius: 5px;
+  background: #e91e63;
+  height: this.state.scrolled;
+} */
 .about {
   margin-top: 20vh;
   height: 80vh;
