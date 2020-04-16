@@ -35,13 +35,13 @@ export default class Header extends React.Component {
       boxShadow: '0 2px 4px rgba(0, 0, 0, 0.3)',
       width: '8px',
       height: '95px',
-      'border-radius': '5px',
+      borderRadius: '5px',
       zIndex: 2
     };
 
     const progressBarStyle = {
       width: '8px',
-      'border-radius': '5px',
+      bordeRadius: '5px',
       background: '#e91e63',
       height: this.state.scrolled
     };
