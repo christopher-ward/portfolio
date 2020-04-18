@@ -1,2 +1,2 @@
-# portfolio
-Portfolio Site Project
+# Portfolio Project
+Portfolio in React Project
